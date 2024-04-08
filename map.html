@@ -1,0 +1,1968 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b49f822527332cc0677dcb2db466e85 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b49f822527332cc0677dcb2db466e85" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b49f822527332cc0677dcb2db466e85 = L.map(
+                "map_8b49f822527332cc0677dcb2db466e85",
+                {
+                    center: [24.9812149808253, 121.585421349811],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b140499f28f52e29998fd88ae39d05dc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b140499f28f52e29998fd88ae39d05dc.addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var marker_182d06a90b13e7f2c5979595e5871dfa = L.marker(
+                [24.997115, 121.559843],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_80a156d6d0e82b57d3d3136b6f6087f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_182d06a90b13e7f2c5979595e5871dfa.setIcon(icon_80a156d6d0e82b57d3d3136b6f6087f6);
+        
+    
+        var popup_00ba7c83966670f9bb583b9b59218d24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a58ab02fa1599c635c92079853b90c6 = $(`<div id="html_5a58ab02fa1599c635c92079853b90c6" style="width: 100.0%; height: 100.0%;">['066-U7', '去程往 捷運公館站']</div>`)[0];
+                popup_00ba7c83966670f9bb583b9b59218d24.setContent(html_5a58ab02fa1599c635c92079853b90c6);
+            
+        
+
+        marker_182d06a90b13e7f2c5979595e5871dfa.bindPopup(popup_00ba7c83966670f9bb583b9b59218d24)
+        ;
+
+        
+    
+    
+            var marker_9ca48af3c9fad1d956d3e48f03176dab = L.marker(
+                [25.00135, 121.553382],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_cafb1f27a8378011c564e1ca4ce28382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ca48af3c9fad1d956d3e48f03176dab.setIcon(icon_cafb1f27a8378011c564e1ca4ce28382);
+        
+    
+        var popup_1f49d5f320525c5d90587decbc803737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d664dfc7ee55af27c4dd168a2495d9e = $(`<div id="html_1d664dfc7ee55af27c4dd168a2495d9e" style="width: 100.0%; height: 100.0%;">['377-U3', '返程往 指南宮']</div>`)[0];
+                popup_1f49d5f320525c5d90587decbc803737.setContent(html_1d664dfc7ee55af27c4dd168a2495d9e);
+            
+        
+
+        marker_9ca48af3c9fad1d956d3e48f03176dab.bindPopup(popup_1f49d5f320525c5d90587decbc803737)
+        ;
+
+        
+    
+    
+            var marker_bed813354b84f2766278d800e359b51a = L.marker(
+                [25.000428, 121.555812],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_eafd0e1a063befef37886eab0b7b5ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bed813354b84f2766278d800e359b51a.setIcon(icon_eafd0e1a063befef37886eab0b7b5ae5);
+        
+    
+        var popup_4b10a6a488b48424f7bfc6cce1aa10fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4dbab9f490338cdab981c332eed2b5e = $(`<div id="html_f4dbab9f490338cdab981c332eed2b5e" style="width: 100.0%; height: 100.0%;">['402-FY', '去程往 捷運公館站']</div>`)[0];
+                popup_4b10a6a488b48424f7bfc6cce1aa10fd.setContent(html_f4dbab9f490338cdab981c332eed2b5e);
+            
+        
+
+        marker_bed813354b84f2766278d800e359b51a.bindPopup(popup_4b10a6a488b48424f7bfc6cce1aa10fd)
+        ;
+
+        
+    
+    
+            var marker_e1db44ce29c23bcd3078f77e716a59bc = L.marker(
+                [24.9812125534647, 121.585437474256],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_8a6ef5277dc1e334d959f7aab26d8251 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1db44ce29c23bcd3078f77e716a59bc.setIcon(icon_8a6ef5277dc1e334d959f7aab26d8251);
+        
+    
+        var popup_ef4e4fd7b00cb46033737150d48b3cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_545ec860992aaa951044a4db446c9dc0 = $(`<div id="html_545ec860992aaa951044a4db446c9dc0" style="width: 100.0%; height: 100.0%;">['Dispatch Station ZhiNan Temple Station', '指南宮', '去程往 捷運公館站']</div>`)[0];
+                popup_ef4e4fd7b00cb46033737150d48b3cb3.setContent(html_545ec860992aaa951044a4db446c9dc0);
+            
+        
+
+        marker_e1db44ce29c23bcd3078f77e716a59bc.bindPopup(popup_ef4e4fd7b00cb46033737150d48b3cb3)
+        ;
+
+        
+    
+    
+            var marker_8abbb4a6d15e6ef3803dd339e98d6c7b = L.marker(
+                [24.98280334, 121.5894172],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_8e69f0b9d92d880e4fc169a274fd5c3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8abbb4a6d15e6ef3803dd339e98d6c7b.setIcon(icon_8e69f0b9d92d880e4fc169a274fd5c3f);
+        
+    
+        var popup_8c9381d7c7a0d2c98fb37ded19f18e83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74a950cd3c2b04872bc2fcda02748df8 = $(`<div id="html_74a950cd3c2b04872bc2fcda02748df8" style="width: 100.0%; height: 100.0%;">['Houshankeng', '猴山坑', '去程往 捷運公館站']</div>`)[0];
+                popup_8c9381d7c7a0d2c98fb37ded19f18e83.setContent(html_74a950cd3c2b04872bc2fcda02748df8);
+            
+        
+
+        marker_8abbb4a6d15e6ef3803dd339e98d6c7b.bindPopup(popup_8c9381d7c7a0d2c98fb37ded19f18e83)
+        ;
+
+        
+    
+    
+            var marker_a0654916ee8da7158ef309b707f22fb2 = L.marker(
+                [24.98599992, 121.5873303],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_42696d8363fcd22ba8d70d45938fb848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0654916ee8da7158ef309b707f22fb2.setIcon(icon_42696d8363fcd22ba8d70d45938fb848);
+        
+    
+        var popup_683dcb9ceb309cd8a74fdd92e687cee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_434fda2905b5c79ddac5a5d98633b15e = $(`<div id="html_434fda2905b5c79ddac5a5d98633b15e" style="width: 100.0%; height: 100.0%;">['Zhengda Yuhuayuan', '政大御花園', '去程往 捷運公館站']</div>`)[0];
+                popup_683dcb9ceb309cd8a74fdd92e687cee5.setContent(html_434fda2905b5c79ddac5a5d98633b15e);
+            
+        
+
+        marker_a0654916ee8da7158ef309b707f22fb2.bindPopup(popup_683dcb9ceb309cd8a74fdd92e687cee5)
+        ;
+
+        
+    
+    
+            var marker_96c6690fb8447935a2cfc20b23ca0144 = L.marker(
+                [24.9871695314337, 121.587942169381],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_84049a9bc74701a9e305807aa420c913 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96c6690fb8447935a2cfc20b23ca0144.setIcon(icon_84049a9bc74701a9e305807aa420c913);
+        
+    
+        var popup_826db5d27675e6d1d1834e62df13a19e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04bbf0ac132a10f64d3e9330c9ff97f9 = $(`<div id="html_04bbf0ac132a10f64d3e9330c9ff97f9" style="width: 100.0%; height: 100.0%;">['Qixia Shanzhuang', '棲霞山莊', '去程往 捷運公館站']</div>`)[0];
+                popup_826db5d27675e6d1d1834e62df13a19e.setContent(html_04bbf0ac132a10f64d3e9330c9ff97f9);
+            
+        
+
+        marker_96c6690fb8447935a2cfc20b23ca0144.bindPopup(popup_826db5d27675e6d1d1834e62df13a19e)
+        ;
+
+        
+    
+    
+            var marker_a6732d457c5ff8beb8531fc4eacac7b0 = L.marker(
+                [24.9881804824337, 121.587632890382],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_54285f50ed13ef0595463b000acba3b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6732d457c5ff8beb8531fc4eacac7b0.setIcon(icon_54285f50ed13ef0595463b000acba3b5);
+        
+    
+        var popup_9ad3a505bd45a9b6b988a9dbdb6565fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ad4210fc3d6039eabf537a46e66756 = $(`<div id="html_60ad4210fc3d6039eabf537a46e66756" style="width: 100.0%; height: 100.0%;">['Greenfield Shanzhuang', '綠野山莊', '去程往 捷運公館站']</div>`)[0];
+                popup_9ad3a505bd45a9b6b988a9dbdb6565fa.setContent(html_60ad4210fc3d6039eabf537a46e66756);
+            
+        
+
+        marker_a6732d457c5ff8beb8531fc4eacac7b0.bindPopup(popup_9ad3a505bd45a9b6b988a9dbdb6565fa)
+        ;
+
+        
+    
+    
+            var marker_87d2022947b3f2432977e5098e36e01d = L.marker(
+                [24.98959656, 121.5872624],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_83798958cca17181311ba8add857818f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87d2022947b3f2432977e5098e36e01d.setIcon(icon_83798958cca17181311ba8add857818f);
+        
+    
+        var popup_1206668040889255aceebd78201e0c9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8acf72715f7d6ca85e560657c35c8e1f = $(`<div id="html_8acf72715f7d6ca85e560657c35c8e1f" style="width: 100.0%; height: 100.0%;">['Chengda Qingjing Community', '政大清境社區', '去程往 捷運公館站']</div>`)[0];
+                popup_1206668040889255aceebd78201e0c9b.setContent(html_8acf72715f7d6ca85e560657c35c8e1f);
+            
+        
+
+        marker_87d2022947b3f2432977e5098e36e01d.bindPopup(popup_1206668040889255aceebd78201e0c9b)
+        ;
+
+        
+    
+    
+            var marker_b3009029d576675cd4f5664660ca0ed2 = L.marker(
+                [24.98929, 121.58023],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_803ece4cce9273845d13b37ba0fc8b14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3009029d576675cd4f5664660ca0ed2.setIcon(icon_803ece4cce9273845d13b37ba0fc8b14);
+        
+    
+        var popup_60db07fedc7f388554e8f4e1c80ae433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34e1ae111d9923860be1d1821cd3596f = $(`<div id="html_34e1ae111d9923860be1d1821cd3596f" style="width: 100.0%; height: 100.0%;">['The Institute of International Relations', '國關中心', '去程往 捷運公館站']</div>`)[0];
+                popup_60db07fedc7f388554e8f4e1c80ae433.setContent(html_34e1ae111d9923860be1d1821cd3596f);
+            
+        
+
+        marker_b3009029d576675cd4f5664660ca0ed2.bindPopup(popup_60db07fedc7f388554e8f4e1c80ae433)
+        ;
+
+        
+    
+    
+            var marker_8a2d1b6476f225e85c6e6f102341366b = L.marker(
+                [24.98905, 121.57849],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_f4b9373a17bdabe53ff33e1a0ad386e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a2d1b6476f225e85c6e6f102341366b.setIcon(icon_f4b9373a17bdabe53ff33e1a0ad386e9);
+        
+    
+        var popup_a9a1817776789a5e0cfccc6b6070ce00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae8da23e41de9c8ac12958157657ee83 = $(`<div id="html_ae8da23e41de9c8ac12958157657ee83" style="width: 100.0%; height: 100.0%;">['Zhinan Shanzhuang', '指南山莊', '去程往 捷運公館站']</div>`)[0];
+                popup_a9a1817776789a5e0cfccc6b6070ce00.setContent(html_ae8da23e41de9c8ac12958157657ee83);
+            
+        
+
+        marker_8a2d1b6476f225e85c6e6f102341366b.bindPopup(popup_a9a1817776789a5e0cfccc6b6070ce00)
+        ;
+
+        
+    
+    
+            var marker_ee5a9a60412ed94a97708df846a8f3ff = L.marker(
+                [24.987811, 121.576051],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_573a6a6ca6953806c0e890c1eb4b4830 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee5a9a60412ed94a97708df846a8f3ff.setIcon(icon_573a6a6ca6953806c0e890c1eb4b4830);
+        
+    
+        var popup_1f951cabce7219c0e617bb1b9f5f61dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_182787068a03d17c243a569c91382480 = $(`<div id="html_182787068a03d17c243a569c91382480" style="width: 100.0%; height: 100.0%;">['National Chengchi U. 1', '政大一', '去程往 捷運公館站']</div>`)[0];
+                popup_1f951cabce7219c0e617bb1b9f5f61dd.setContent(html_182787068a03d17c243a569c91382480);
+            
+        
+
+        marker_ee5a9a60412ed94a97708df846a8f3ff.bindPopup(popup_1f951cabce7219c0e617bb1b9f5f61dd)
+        ;
+
+        
+    
+    
+            var marker_09b10889f969e22a5d4384debe8e0465 = L.marker(
+                [24.9880845060964, 121.573881732316],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_4efd46f5e4b9ea8ed32638239ae63961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09b10889f969e22a5d4384debe8e0465.setIcon(icon_4efd46f5e4b9ea8ed32638239ae63961);
+        
+    
+        var popup_abf14cc682447dda8c3a9f847564f9e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aad9b25dcb8132f78c37fc8d8eb2950 = $(`<div id="html_1aad9b25dcb8132f78c37fc8d8eb2950" style="width: 100.0%; height: 100.0%;">['Xinguang Rd. Entrance', '新光路口', '去程往 捷運公館站']</div>`)[0];
+                popup_abf14cc682447dda8c3a9f847564f9e5.setContent(html_1aad9b25dcb8132f78c37fc8d8eb2950);
+            
+        
+
+        marker_09b10889f969e22a5d4384debe8e0465.bindPopup(popup_abf14cc682447dda8c3a9f847564f9e5)
+        ;
+
+        
+    
+    
+            var marker_7ea5f7a10f567ba06f1e78a84972f584 = L.marker(
+                [24.987746922127, 121.56997997801],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_269dd7bd5b5dbedb49971e39ad7febae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ea5f7a10f567ba06f1e78a84972f584.setIcon(icon_269dd7bd5b5dbedb49971e39ad7febae);
+        
+    
+        var popup_7aaea4844a54ce3b08fbacd21aa9d16a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_888843221326aa7e98a851b5ac55c803 = $(`<div id="html_888843221326aa7e98a851b5ac55c803" style="width: 100.0%; height: 100.0%;">['Zhinan Rd.', '指南路', '去程往 捷運公館站']</div>`)[0];
+                popup_7aaea4844a54ce3b08fbacd21aa9d16a.setContent(html_888843221326aa7e98a851b5ac55c803);
+            
+        
+
+        marker_7ea5f7a10f567ba06f1e78a84972f584.bindPopup(popup_7aaea4844a54ce3b08fbacd21aa9d16a)
+        ;
+
+        
+    
+    
+            var marker_a7d60ef5d735eeceee311541a9d2619d = L.marker(
+                [24.9879719237069, 121.568689314716],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_67ae78320aa1c1561ae6e1f83f9ba453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7d60ef5d735eeceee311541a9d2619d.setIcon(icon_67ae78320aa1c1561ae6e1f83f9ba453);
+        
+    
+        var popup_31730d00814be3a46541a2d9cd91d201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299eea624cada0bc1669966863264473 = $(`<div id="html_299eea624cada0bc1669966863264473" style="width: 100.0%; height: 100.0%;">['Muja Market', '木柵市場', '去程往 捷運公館站']</div>`)[0];
+                popup_31730d00814be3a46541a2d9cd91d201.setContent(html_299eea624cada0bc1669966863264473);
+            
+        
+
+        marker_a7d60ef5d735eeceee311541a9d2619d.bindPopup(popup_31730d00814be3a46541a2d9cd91d201)
+        ;
+
+        
+    
+    
+            var marker_020321872a2af08441aec919bb7161ec = L.marker(
+                [24.9885790493873, 121.566361887311],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_9f6920f96b94eaf829e3bd4a5f60b9f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_020321872a2af08441aec919bb7161ec.setIcon(icon_9f6920f96b94eaf829e3bd4a5f60b9f6);
+        
+    
+        var popup_fe3db80dd34790cf48c4759045220ef3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c463eaf012ba782180c0f71e57d7f2 = $(`<div id="html_08c463eaf012ba782180c0f71e57d7f2" style="width: 100.0%; height: 100.0%;">['Muzha', '木柵', '去程往 捷運公館站']</div>`)[0];
+                popup_fe3db80dd34790cf48c4759045220ef3.setContent(html_08c463eaf012ba782180c0f71e57d7f2);
+            
+        
+
+        marker_020321872a2af08441aec919bb7161ec.bindPopup(popup_fe3db80dd34790cf48c4759045220ef3)
+        ;
+
+        
+    
+    
+            var marker_078a43e38640573388942e34c095d01f = L.marker(
+                [24.9889647613988, 121.562489728783],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_ae5ec2b8c80997a9ae9eacd41a38299d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_078a43e38640573388942e34c095d01f.setIcon(icon_ae5ec2b8c80997a9ae9eacd41a38299d);
+        
+    
+        var popup_d8d966a4af32ffe2c843f47e74fc86fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a514a3b20d6909f87b50b0689a307cb2 = $(`<div id="html_a514a3b20d6909f87b50b0689a307cb2" style="width: 100.0%; height: 100.0%;">['Wenshan Police Sta. 1', '文山一分局', '去程往 捷運公館站']</div>`)[0];
+                popup_d8d966a4af32ffe2c843f47e74fc86fa.setContent(html_a514a3b20d6909f87b50b0689a307cb2);
+            
+        
+
+        marker_078a43e38640573388942e34c095d01f.bindPopup(popup_d8d966a4af32ffe2c843f47e74fc86fa)
+        ;
+
+        
+    
+    
+            var marker_651c4da3464dd283cdea91d16c5e435d = L.marker(
+                [24.989363359859, 121.559942504895],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_26debd65792d09a8d3ca10f4fe5ce4d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_651c4da3464dd283cdea91d16c5e435d.setIcon(icon_26debd65792d09a8d3ca10f4fe5ce4d8);
+        
+    
+        var popup_33cb3f1de6d9c8c02a2056420ee3c319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff5c49fc2b7943bb52539ed3e1a114c9 = $(`<div id="html_ff5c49fc2b7943bb52539ed3e1a114c9" style="width: 100.0%; height: 100.0%;">['Mamingtan(Zaixing High School)', '馬明潭(再興中學)', '去程往 捷運公館站']</div>`)[0];
+                popup_33cb3f1de6d9c8c02a2056420ee3c319.setContent(html_ff5c49fc2b7943bb52539ed3e1a114c9);
+            
+        
+
+        marker_651c4da3464dd283cdea91d16c5e435d.bindPopup(popup_33cb3f1de6d9c8c02a2056420ee3c319)
+        ;
+
+        
+    
+    
+            var marker_0cef7a5e9336a98e574dbfc014361a0a = L.marker(
+                [24.990768, 121.55919],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_bd308cf7d71a5da9125ecb1e2a05326f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cef7a5e9336a98e574dbfc014361a0a.setIcon(icon_bd308cf7d71a5da9125ecb1e2a05326f);
+        
+    
+        var popup_5fef63969431b9047416eed5be31f5a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ae1706558b810435019e906cbea8aeb = $(`<div id="html_9ae1706558b810435019e906cbea8aeb" style="width: 100.0%; height: 100.0%;">['Xinglong Shanzhuang', '興隆山莊', '去程往 捷運公館站']</div>`)[0];
+                popup_5fef63969431b9047416eed5be31f5a8.setContent(html_9ae1706558b810435019e906cbea8aeb);
+            
+        
+
+        marker_0cef7a5e9336a98e574dbfc014361a0a.bindPopup(popup_5fef63969431b9047416eed5be31f5a8)
+        ;
+
+        
+    
+    
+            var marker_31e07502fd80fd7b8098cc86f483a865 = L.marker(
+                [24.99238885, 121.5587834],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_b14ff1b4c9bc8e96923600b05e31fad8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31e07502fd80fd7b8098cc86f483a865.setIcon(icon_b14ff1b4c9bc8e96923600b05e31fad8);
+        
+    
+        var popup_84ab43f3e9c0b9769311010e1be56df6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dca0784523f739614113c63595016ed = $(`<div id="html_5dca0784523f739614113c63595016ed" style="width: 100.0%; height: 100.0%;">['Coast Guard Administration 1', '海巡署一', '去程往 捷運公館站']</div>`)[0];
+                popup_84ab43f3e9c0b9769311010e1be56df6.setContent(html_5dca0784523f739614113c63595016ed);
+            
+        
+
+        marker_31e07502fd80fd7b8098cc86f483a865.bindPopup(popup_84ab43f3e9c0b9769311010e1be56df6)
+        ;
+
+        
+    
+    
+            var marker_8bab06328331d1ee2fe70a151397f98f = L.marker(
+                [24.99385696, 121.5594086],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_d01c2339addb04e1a66fe288174b57bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bab06328331d1ee2fe70a151397f98f.setIcon(icon_d01c2339addb04e1a66fe288174b57bd);
+        
+    
+        var popup_60e92a95c2e2b1f5c681897e8149a1a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a17fcea137800ef730f46e07903e8f64 = $(`<div id="html_a17fcea137800ef730f46e07903e8f64" style="width: 100.0%; height: 100.0%;">['Coast Guard Administration', '海巡署', '去程往 捷運公館站']</div>`)[0];
+                popup_60e92a95c2e2b1f5c681897e8149a1a9.setContent(html_a17fcea137800ef730f46e07903e8f64);
+            
+        
+
+        marker_8bab06328331d1ee2fe70a151397f98f.bindPopup(popup_60e92a95c2e2b1f5c681897e8149a1a9)
+        ;
+
+        
+    
+    
+            var marker_511df0606636f75c8e78455752234013 = L.marker(
+                [24.996475, 121.560053],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_b2b93406732b07609e1fb588982d4db2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_511df0606636f75c8e78455752234013.setIcon(icon_b2b93406732b07609e1fb588982d4db2);
+        
+    
+        var popup_e59247c563cc60b636a324ed9cc4df80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5e4dd3d72ccfa4e0740cdf25d27601d = $(`<div id="html_b5e4dd3d72ccfa4e0740cdf25d27601d" style="width: 100.0%; height: 100.0%;">['Wenshan Sports Center(Xinglong)', '文山運動中心(興隆)', '去程往 捷運公館站']</div>`)[0];
+                popup_e59247c563cc60b636a324ed9cc4df80.setContent(html_b5e4dd3d72ccfa4e0740cdf25d27601d);
+            
+        
+
+        marker_511df0606636f75c8e78455752234013.bindPopup(popup_e59247c563cc60b636a324ed9cc4df80)
+        ;
+
+        
+    
+    
+            var marker_702de6edc14ee1c528d2a73cd07a5227 = L.marker(
+                [24.9976773266786, 121.559454005999],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_4b6cc1e37e58a335932abaaa6072d63b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_702de6edc14ee1c528d2a73cd07a5227.setIcon(icon_4b6cc1e37e58a335932abaaa6072d63b);
+        
+    
+        var popup_0056fc5fb9b83e187d6ebc8b810c19c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a6b57faacd8dd651811205c1e55b8a = $(`<div id="html_61a6b57faacd8dd651811205c1e55b8a" style="width: 100.0%; height: 100.0%;">['Taiwan Police College', '臺灣警察專科學校', '去程往 捷運公館站']</div>`)[0];
+                popup_0056fc5fb9b83e187d6ebc8b810c19c7.setContent(html_61a6b57faacd8dd651811205c1e55b8a);
+            
+        
+
+        marker_702de6edc14ee1c528d2a73cd07a5227.bindPopup(popup_0056fc5fb9b83e187d6ebc8b810c19c7)
+        ;
+
+        
+    
+    
+            var marker_25f7b5120828be2567d6cf63e946387e = L.marker(
+                [24.999259, 121.557829],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_b86b4af9d2f7dbfe48901c761f140979 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25f7b5120828be2567d6cf63e946387e.setIcon(icon_b86b4af9d2f7dbfe48901c761f140979);
+        
+    
+        var popup_5d20fb6eccfcb0b2551530382fe7cd6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25bc052e637cb2f4aa1038e0c2484180 = $(`<div id="html_25bc052e637cb2f4aa1038e0c2484180" style="width: 100.0%; height: 100.0%;">['MRT Wanfang Hospital Sta.', '捷運萬芳醫院站', '去程往 捷運公館站']</div>`)[0];
+                popup_5d20fb6eccfcb0b2551530382fe7cd6b.setContent(html_25bc052e637cb2f4aa1038e0c2484180);
+            
+        
+
+        marker_25f7b5120828be2567d6cf63e946387e.bindPopup(popup_5d20fb6eccfcb0b2551530382fe7cd6b)
+        ;
+
+        
+    
+    
+            var marker_2d1919f6baa8949581f8a97a902d34c6 = L.marker(
+                [25.0004051038435, 121.555797991874],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_3890e859ed05267da9b96eb94ffb5134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d1919f6baa8949581f8a97a902d34c6.setIcon(icon_3890e859ed05267da9b96eb94ffb5134);
+        
+    
+        var popup_45234c94da30440efaf34e03745eb410 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40b9917820d74406471371c6e8a26c47 = $(`<div id="html_40b9917820d74406471371c6e8a26c47" style="width: 100.0%; height: 100.0%;">['China University of Technology(Xinglong)', '中國科技大學(興隆)', '去程往 捷運公館站']</div>`)[0];
+                popup_45234c94da30440efaf34e03745eb410.setContent(html_40b9917820d74406471371c6e8a26c47);
+            
+        
+
+        marker_2d1919f6baa8949581f8a97a902d34c6.bindPopup(popup_45234c94da30440efaf34e03745eb410)
+        ;
+
+        
+    
+    
+            var marker_e3dc5bcee1367a95e64a9f92f3e9e7fa = L.marker(
+                [25.001459963615, 121.553039816886],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_b52766e1b78fb2445e0807eac15a71f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3dc5bcee1367a95e64a9f92f3e9e7fa.setIcon(icon_b52766e1b78fb2445e0807eac15a71f0);
+        
+    
+        var popup_64ea69241d9495f0ee84bd68455014ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e2d68d72b7ab4d6acf828f48460fc9 = $(`<div id="html_c6e2d68d72b7ab4d6acf828f48460fc9" style="width: 100.0%; height: 100.0%;">['Xinglong Elementary School', '興隆國小', '去程往 捷運公館站']</div>`)[0];
+                popup_64ea69241d9495f0ee84bd68455014ce.setContent(html_c6e2d68d72b7ab4d6acf828f48460fc9);
+            
+        
+
+        marker_e3dc5bcee1367a95e64a9f92f3e9e7fa.bindPopup(popup_64ea69241d9495f0ee84bd68455014ce)
+        ;
+
+        
+    
+    
+            var marker_f12426de0a5f04fb7c561f169ab526af = L.marker(
+                [25.0009828977016, 121.550073640107],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_4ac43d47782baeca00dabde31a585a7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f12426de0a5f04fb7c561f169ab526af.setIcon(icon_4ac43d47782baeca00dabde31a585a7f);
+        
+    
+        var popup_05ae944a74fd3d58370328b824781bf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fcbadb07e2f288588a0507b0b725005 = $(`<div id="html_3fcbadb07e2f288588a0507b0b725005" style="width: 100.0%; height: 100.0%;">['Xingde Elementary School', '興德國小', '去程往 捷運公館站']</div>`)[0];
+                popup_05ae944a74fd3d58370328b824781bf8.setContent(html_3fcbadb07e2f288588a0507b0b725005);
+            
+        
+
+        marker_f12426de0a5f04fb7c561f169ab526af.bindPopup(popup_05ae944a74fd3d58370328b824781bf8)
+        ;
+
+        
+    
+    
+            var marker_30ebe0f5c70c9f707970a17ce8435dd0 = L.marker(
+                [24.9995842974218, 121.547448469573],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_2080516cb1e6561a4c9fd88507cfaca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30ebe0f5c70c9f707970a17ce8435dd0.setIcon(icon_2080516cb1e6561a4c9fd88507cfaca2);
+        
+    
+        var popup_5c857307764f60226da35eb86b9b5682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c39dbeb90b7b2c5e9427697236087e6 = $(`<div id="html_1c39dbeb90b7b2c5e9427697236087e6" style="width: 100.0%; height: 100.0%;">['Xinglong Market', '興隆市場', '去程往 捷運公館站']</div>`)[0];
+                popup_5c857307764f60226da35eb86b9b5682.setContent(html_1c39dbeb90b7b2c5e9427697236087e6);
+            
+        
+
+        marker_30ebe0f5c70c9f707970a17ce8435dd0.bindPopup(popup_5c857307764f60226da35eb86b9b5682)
+        ;
+
+        
+    
+    
+            var marker_7d9b35dc889d08eb4ef23b024649a5a0 = L.marker(
+                [24.998953, 121.545835],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_2a148769e0509d876fe96590c8b3fd12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d9b35dc889d08eb4ef23b024649a5a0.setIcon(icon_2a148769e0509d876fe96590c8b3fd12);
+        
+    
+        var popup_8510891e48e2baf046d3eb8f08b81ebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a33e2c2f0981f6c5ba706086321d836 = $(`<div id="html_6a33e2c2f0981f6c5ba706086321d836" style="width: 100.0%; height: 100.0%;">['Chingshin Academy', '靜心高中', '去程往 捷運公館站']</div>`)[0];
+                popup_8510891e48e2baf046d3eb8f08b81ebf.setContent(html_6a33e2c2f0981f6c5ba706086321d836);
+            
+        
+
+        marker_7d9b35dc889d08eb4ef23b024649a5a0.bindPopup(popup_8510891e48e2baf046d3eb8f08b81ebf)
+        ;
+
+        
+    
+    
+            var marker_7818756064ed5df5abc8f400a59ba352 = L.marker(
+                [24.999719170953, 121.54393655953],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_2448d8302c664ca65c09007c001eb546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7818756064ed5df5abc8f400a59ba352.setIcon(icon_2448d8302c664ca65c09007c001eb546);
+        
+    
+        var popup_0e329411b9d3803e3d1c9d9da33cf785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42c817801a875270b3f13dec3d2bfc6c = $(`<div id="html_42c817801a875270b3f13dec3d2bfc6c" style="width: 100.0%; height: 100.0%;">['Xianguang Apartment', '憲光公寓', '去程往 捷運公館站']</div>`)[0];
+                popup_0e329411b9d3803e3d1c9d9da33cf785.setContent(html_42c817801a875270b3f13dec3d2bfc6c);
+            
+        
+
+        marker_7818756064ed5df5abc8f400a59ba352.bindPopup(popup_0e329411b9d3803e3d1c9d9da33cf785)
+        ;
+
+        
+    
+    
+            var marker_1ab37815ef03339caa2718701d1369ce = L.marker(
+                [25.001808939996, 121.54225915575],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_a98722302df032e0b8ee4bb39e5c94c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ab37815ef03339caa2718701d1369ce.setIcon(icon_a98722302df032e0b8ee4bb39e5c94c9);
+        
+    
+        var popup_7a1f4f778482074c56b27a8477cd2a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8537107d8f13efb6f9b228d0930633 = $(`<div id="html_de8537107d8f13efb6f9b228d0930633" style="width: 100.0%; height: 100.0%;">['JingMing Rd. Entrance', '景明街口', '去程往 捷運公館站']</div>`)[0];
+                popup_7a1f4f778482074c56b27a8477cd2a7b.setContent(html_de8537107d8f13efb6f9b228d0930633);
+            
+        
+
+        marker_1ab37815ef03339caa2718701d1369ce.bindPopup(popup_7a1f4f778482074c56b27a8477cd2a7b)
+        ;
+
+        
+    
+    
+            var marker_8a71dacde9b5d84d08f9c9194dd26d0e = L.marker(
+                [25.0042661031504, 121.539995594657],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_f3cd3a92cc000e3877f0414b37b3e07d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a71dacde9b5d84d08f9c9194dd26d0e.setIcon(icon_f3cd3a92cc000e3877f0414b37b3e07d);
+        
+    
+        var popup_58a47fe45b2dafbc7b75cdad9296bd47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9cbd3ec641fbf43127848a2f3ca2e5c = $(`<div id="html_c9cbd3ec641fbf43127848a2f3ca2e5c" style="width: 100.0%; height: 100.0%;">['Changan Elementary School(Xinglong)', '武功國小(興隆)', '去程往 捷運公館站']</div>`)[0];
+                popup_58a47fe45b2dafbc7b75cdad9296bd47.setContent(html_c9cbd3ec641fbf43127848a2f3ca2e5c);
+            
+        
+
+        marker_8a71dacde9b5d84d08f9c9194dd26d0e.bindPopup(popup_58a47fe45b2dafbc7b75cdad9296bd47)
+        ;
+
+        
+    
+    
+            var marker_d72c7bac6856e191fcbb1d676b65b2ac = L.marker(
+                [25.0076706783786, 121.538470307254],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_5fc198523b37bc388c68784a797da2ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d72c7bac6856e191fcbb1d676b65b2ac.setIcon(icon_5fc198523b37bc388c68784a797da2ba);
+        
+    
+        var popup_db84a4bf5ae4d08dfd9fcdfad4892cfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_293cc373e9da8cd54d8f90fd8f35999b = $(`<div id="html_293cc373e9da8cd54d8f90fd8f35999b" style="width: 100.0%; height: 100.0%;">['National Taiwan Normal University Branch', '師大分部', '去程往 捷運公館站']</div>`)[0];
+                popup_db84a4bf5ae4d08dfd9fcdfad4892cfe.setContent(html_293cc373e9da8cd54d8f90fd8f35999b);
+            
+        
+
+        marker_d72c7bac6856e191fcbb1d676b65b2ac.bindPopup(popup_db84a4bf5ae4d08dfd9fcdfad4892cfe)
+        ;
+
+        
+    
+    
+            var marker_d607ae3e50e2d5ac5c290c632f4444fb = L.marker(
+                [25.013993, 121.535185],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_292c81b6fc3adee7f0a9c844d8e6fa9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d607ae3e50e2d5ac5c290c632f4444fb.setIcon(icon_292c81b6fc3adee7f0a9c844d8e6fa9f);
+        
+    
+        var popup_0aee6fbcffd61a9259a79f45860ea42a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76a02f74b9956c69b1be81f6b8f4739c = $(`<div id="html_76a02f74b9956c69b1be81f6b8f4739c" style="width: 100.0%; height: 100.0%;">['MRT Gongguan Sta.', '捷運公館站', '去程往 捷運公館站']</div>`)[0];
+                popup_0aee6fbcffd61a9259a79f45860ea42a.setContent(html_76a02f74b9956c69b1be81f6b8f4739c);
+            
+        
+
+        marker_d607ae3e50e2d5ac5c290c632f4444fb.bindPopup(popup_0aee6fbcffd61a9259a79f45860ea42a)
+        ;
+
+        
+    
+    
+            var marker_020348b9cd0300ec004d062c9ec53377 = L.marker(
+                [25.018104, 121.531094],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_d8eec6ded972685a93f78df7fa2c853f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_020348b9cd0300ec004d062c9ec53377.setIcon(icon_d8eec6ded972685a93f78df7fa2c853f);
+        
+    
+        var popup_9bd8a54730049ff8e98364fbaa80915f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90a83ffa5b4d139c6a0b825063f40a4f = $(`<div id="html_90a83ffa5b4d139c6a0b825063f40a4f" style="width: 100.0%; height: 100.0%;">['Taipower Building', '台電大樓', '去程往 捷運公館站']</div>`)[0];
+                popup_9bd8a54730049ff8e98364fbaa80915f.setContent(html_90a83ffa5b4d139c6a0b825063f40a4f);
+            
+        
+
+        marker_020348b9cd0300ec004d062c9ec53377.bindPopup(popup_9bd8a54730049ff8e98364fbaa80915f)
+        ;
+
+        
+    
+    
+            var marker_1d31cc3509712c55aff806beca03dce2 = L.marker(
+                [25.021872, 121.532327],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_25e8f87401d6da984cee2df1b61296fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d31cc3509712c55aff806beca03dce2.setIcon(icon_25e8f87401d6da984cee2df1b61296fe);
+        
+    
+        var popup_70e0f64a7f07e04098ccd88ceb705751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81eabe52ffe52e4a29c25dc22b973625 = $(`<div id="html_81eabe52ffe52e4a29c25dc22b973625" style="width: 100.0%; height: 100.0%;">['Wenzhou St. Entrance', '溫州街口', '去程往 捷運公館站']</div>`)[0];
+                popup_70e0f64a7f07e04098ccd88ceb705751.setContent(html_81eabe52ffe52e4a29c25dc22b973625);
+            
+        
+
+        marker_1d31cc3509712c55aff806beca03dce2.bindPopup(popup_70e0f64a7f07e04098ccd88ceb705751)
+        ;
+
+        
+    
+    
+            var marker_eb0dc1c374de29bfff8535559b575fb2 = L.marker(
+                [25.0215502113013, 121.534113646475],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_5e670b2f8de430d45ff774742029b2de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb0dc1c374de29bfff8535559b575fb2.setIcon(icon_5e670b2f8de430d45ff774742029b2de);
+        
+    
+        var popup_17f1910d8a785eafef2de07b7cc4e6ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_663717832494603af48efec1934dd812 = $(`<div id="html_663717832494603af48efec1934dd812" style="width: 100.0%; height: 100.0%;">['NTU Sports Center', '臺大綜合體育館', '去程往 捷運公館站']</div>`)[0];
+                popup_17f1910d8a785eafef2de07b7cc4e6ff.setContent(html_663717832494603af48efec1934dd812);
+            
+        
+
+        marker_eb0dc1c374de29bfff8535559b575fb2.bindPopup(popup_17f1910d8a785eafef2de07b7cc4e6ff)
+        ;
+
+        
+    
+    
+            var marker_4cc0d4fa041ceeb3a894439cdb16293f = L.marker(
+                [25.018246284477, 121.533425339383],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_d7e04db60a0b7bc3bfca43f37b6928cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cc0d4fa041ceeb3a894439cdb16293f.setIcon(icon_d7e04db60a0b7bc3bfca43f37b6928cc);
+        
+    
+        var popup_ebd443eb99085b9dabaf8371ec0e3b23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_392aa5c6c58855ca12de415581ea5515 = $(`<div id="html_392aa5c6c58855ca12de415581ea5515" style="width: 100.0%; height: 100.0%;">['National Taiwan U.', '臺大', '去程往 捷運公館站']</div>`)[0];
+                popup_ebd443eb99085b9dabaf8371ec0e3b23.setContent(html_392aa5c6c58855ca12de415581ea5515);
+            
+        
+
+        marker_4cc0d4fa041ceeb3a894439cdb16293f.bindPopup(popup_ebd443eb99085b9dabaf8371ec0e3b23)
+        ;
+
+        
+    
+    
+            var marker_6587acc5218385464689a7cc68bb8709 = L.marker(
+                [25.014321, 121.534722],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_f6a90b3ac4ae2c007c57b199ef9dfb39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6587acc5218385464689a7cc68bb8709.setIcon(icon_f6a90b3ac4ae2c007c57b199ef9dfb39);
+        
+    
+        var popup_67f4ae78a92d36444cede440df117a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd4a4b8fa797bf674608d498fede29a = $(`<div id="html_7cd4a4b8fa797bf674608d498fede29a" style="width: 100.0%; height: 100.0%;">['MRT Gongguan Sta.', '捷運公館站', '返程往 指南宮']</div>`)[0];
+                popup_67f4ae78a92d36444cede440df117a32.setContent(html_7cd4a4b8fa797bf674608d498fede29a);
+            
+        
+
+        marker_6587acc5218385464689a7cc68bb8709.bindPopup(popup_67f4ae78a92d36444cede440df117a32)
+        ;
+
+        
+    
+    
+            var marker_22a5cd70650e09683ed007d9023292b4 = L.marker(
+                [25.0081406778406, 121.538064047069],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_905774f7d436258cc1270a7623f5f90d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22a5cd70650e09683ed007d9023292b4.setIcon(icon_905774f7d436258cc1270a7623f5f90d);
+        
+    
+        var popup_9ccc4473dd70ad91fb69ffe2d7560b90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c331e60eae0483ceeef3bc14af48b72c = $(`<div id="html_c331e60eae0483ceeef3bc14af48b72c" style="width: 100.0%; height: 100.0%;">['National Taiwan Normal University Branch', '師大分部', '返程往 指南宮']</div>`)[0];
+                popup_9ccc4473dd70ad91fb69ffe2d7560b90.setContent(html_c331e60eae0483ceeef3bc14af48b72c);
+            
+        
+
+        marker_22a5cd70650e09683ed007d9023292b4.bindPopup(popup_9ccc4473dd70ad91fb69ffe2d7560b90)
+        ;
+
+        
+    
+    
+            var marker_de778bcaa8ff84bf09362ef594e274aa = L.marker(
+                [25.004127614735, 121.539868514521],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_a4d57ad5c856519c6668d2d494ceb0ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_de778bcaa8ff84bf09362ef594e274aa.setIcon(icon_a4d57ad5c856519c6668d2d494ceb0ed);
+        
+    
+        var popup_5663ee822d2cfc98fbeef076b33aa709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75353be9626ea311a777665c907f18d9 = $(`<div id="html_75353be9626ea311a777665c907f18d9" style="width: 100.0%; height: 100.0%;">['Changan Elementary School(Xinglong)', '武功國小(興隆)', '返程往 指南宮']</div>`)[0];
+                popup_5663ee822d2cfc98fbeef076b33aa709.setContent(html_75353be9626ea311a777665c907f18d9);
+            
+        
+
+        marker_de778bcaa8ff84bf09362ef594e274aa.bindPopup(popup_5663ee822d2cfc98fbeef076b33aa709)
+        ;
+
+        
+    
+    
+            var marker_16a831ff71ba8af6e264b54108df2eae = L.marker(
+                [25.00163127, 121.5422579],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_599a58533b0d7d77ae25b74baa778d27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16a831ff71ba8af6e264b54108df2eae.setIcon(icon_599a58533b0d7d77ae25b74baa778d27);
+        
+    
+        var popup_0a9eb1d1307f3d69edac362832108757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88144420286aa21e6f9cf91b3537f85d = $(`<div id="html_88144420286aa21e6f9cf91b3537f85d" style="width: 100.0%; height: 100.0%;">['JingMing Rd. Entrance', '景明街口', '返程往 指南宮']</div>`)[0];
+                popup_0a9eb1d1307f3d69edac362832108757.setContent(html_88144420286aa21e6f9cf91b3537f85d);
+            
+        
+
+        marker_16a831ff71ba8af6e264b54108df2eae.bindPopup(popup_0a9eb1d1307f3d69edac362832108757)
+        ;
+
+        
+    
+    
+            var marker_62f2a0077e02d532b51633b9ab43c6dd = L.marker(
+                [24.9994337628866, 121.54389161859],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_23d46bcde2f9bdc2b96bb90ee742f05a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62f2a0077e02d532b51633b9ab43c6dd.setIcon(icon_23d46bcde2f9bdc2b96bb90ee742f05a);
+        
+    
+        var popup_9b4c0ef469a58d66cd249f10da034496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5aeec84cc369302e9d90282957bdcd3c = $(`<div id="html_5aeec84cc369302e9d90282957bdcd3c" style="width: 100.0%; height: 100.0%;">['Xianguang Apartment', '憲光公寓', '返程往 指南宮']</div>`)[0];
+                popup_9b4c0ef469a58d66cd249f10da034496.setContent(html_5aeec84cc369302e9d90282957bdcd3c);
+            
+        
+
+        marker_62f2a0077e02d532b51633b9ab43c6dd.bindPopup(popup_9b4c0ef469a58d66cd249f10da034496)
+        ;
+
+        
+    
+    
+            var marker_8d5ee3e316eddebe44e2febd81e15430 = L.marker(
+                [24.998797, 121.545859],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_175d5995d778a3d0233fe9c4ad436ee0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d5ee3e316eddebe44e2febd81e15430.setIcon(icon_175d5995d778a3d0233fe9c4ad436ee0);
+        
+    
+        var popup_bb8c823353fc44b044f63cc04c67e115 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8f7dea83df6a165a440fc1b70466784 = $(`<div id="html_a8f7dea83df6a165a440fc1b70466784" style="width: 100.0%; height: 100.0%;">['Chingshin Academy', '靜心高中', '返程往 指南宮']</div>`)[0];
+                popup_bb8c823353fc44b044f63cc04c67e115.setContent(html_a8f7dea83df6a165a440fc1b70466784);
+            
+        
+
+        marker_8d5ee3e316eddebe44e2febd81e15430.bindPopup(popup_bb8c823353fc44b044f63cc04c67e115)
+        ;
+
+        
+    
+    
+            var marker_378e323d2e863714c21d80ac64661aef = L.marker(
+                [24.9996328919305, 121.547902045529],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_4a3d5a9b34e892e0159a7c2417259682 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_378e323d2e863714c21d80ac64661aef.setIcon(icon_4a3d5a9b34e892e0159a7c2417259682);
+        
+    
+        var popup_ba8abfb3cd5e879c87ba19502ab011ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b705e05fe054a9ca926698d736f52967 = $(`<div id="html_b705e05fe054a9ca926698d736f52967" style="width: 100.0%; height: 100.0%;">['Xinglong Market', '興隆市場', '返程往 指南宮']</div>`)[0];
+                popup_ba8abfb3cd5e879c87ba19502ab011ec.setContent(html_b705e05fe054a9ca926698d736f52967);
+            
+        
+
+        marker_378e323d2e863714c21d80ac64661aef.bindPopup(popup_ba8abfb3cd5e879c87ba19502ab011ec)
+        ;
+
+        
+    
+    
+            var marker_f719cfec1e7088adf23a5e71bd65dbe6 = L.marker(
+                [25.0009702685655, 121.550307886322],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_be25464c7c66591dcc2549d028a50f07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f719cfec1e7088adf23a5e71bd65dbe6.setIcon(icon_be25464c7c66591dcc2549d028a50f07);
+        
+    
+        var popup_cf4fe96493196b1f258e16a06c54c8d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3d976cf0ded5cc8039c2aca77840373 = $(`<div id="html_b3d976cf0ded5cc8039c2aca77840373" style="width: 100.0%; height: 100.0%;">['Xingde Elementary School', '興德國小', '返程往 指南宮']</div>`)[0];
+                popup_cf4fe96493196b1f258e16a06c54c8d6.setContent(html_b3d976cf0ded5cc8039c2aca77840373);
+            
+        
+
+        marker_f719cfec1e7088adf23a5e71bd65dbe6.bindPopup(popup_cf4fe96493196b1f258e16a06c54c8d6)
+        ;
+
+        
+    
+    
+            var marker_20fecc695e03e1a9e9b31d63882982d1 = L.marker(
+                [25.0012218102124, 121.553328388246],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_d75a5b6c5d17d08355def93dea2627a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20fecc695e03e1a9e9b31d63882982d1.setIcon(icon_d75a5b6c5d17d08355def93dea2627a8);
+        
+    
+        var popup_8a732c000b5dbb7d7a594f351fa76090 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5810b9ad7c974efc600d621bd645fd93 = $(`<div id="html_5810b9ad7c974efc600d621bd645fd93" style="width: 100.0%; height: 100.0%;">['Xinglong Elementary School', '興隆國小', '返程往 指南宮']</div>`)[0];
+                popup_8a732c000b5dbb7d7a594f351fa76090.setContent(html_5810b9ad7c974efc600d621bd645fd93);
+            
+        
+
+        marker_20fecc695e03e1a9e9b31d63882982d1.bindPopup(popup_8a732c000b5dbb7d7a594f351fa76090)
+        ;
+
+        
+    
+    
+            var marker_6879f998d8cfb627bdef227e41f3910b = L.marker(
+                [24.999571, 121.556845],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_4df6f2fe17a881b5ab0e7bee9b658e11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6879f998d8cfb627bdef227e41f3910b.setIcon(icon_4df6f2fe17a881b5ab0e7bee9b658e11);
+        
+    
+        var popup_50e77f1fbf473a03d3786f5e0ff0cc42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ea101f85974864add059d3e498c8d9d = $(`<div id="html_7ea101f85974864add059d3e498c8d9d" style="width: 100.0%; height: 100.0%;">['MRT Wanfang Hospital Sta.', '捷運萬芳醫院站', '返程往 指南宮']</div>`)[0];
+                popup_50e77f1fbf473a03d3786f5e0ff0cc42.setContent(html_7ea101f85974864add059d3e498c8d9d);
+            
+        
+
+        marker_6879f998d8cfb627bdef227e41f3910b.bindPopup(popup_50e77f1fbf473a03d3786f5e0ff0cc42)
+        ;
+
+        
+    
+    
+            var marker_9bc778c348548cc0b23c7e891f05d409 = L.marker(
+                [24.9982684874929, 121.558494894192],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_f4b3a406b187fea3fce53057e00d93c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9bc778c348548cc0b23c7e891f05d409.setIcon(icon_f4b3a406b187fea3fce53057e00d93c6);
+        
+    
+        var popup_7a7a70582970115aac049f0930fb2f4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a5d973044c082504704f3f33e826e1b = $(`<div id="html_2a5d973044c082504704f3f33e826e1b" style="width: 100.0%; height: 100.0%;">['Taiwan Police College', '臺灣警察專科學校', '返程往 指南宮']</div>`)[0];
+                popup_7a7a70582970115aac049f0930fb2f4e.setContent(html_2a5d973044c082504704f3f33e826e1b);
+            
+        
+
+        marker_9bc778c348548cc0b23c7e891f05d409.bindPopup(popup_7a7a70582970115aac049f0930fb2f4e)
+        ;
+
+        
+    
+    
+            var marker_93e570fc2c74c2b08c6fbe3371e341b2 = L.marker(
+                [24.996275, 121.559841],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_b61cb26217e81f50605cb86b0c26cf0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93e570fc2c74c2b08c6fbe3371e341b2.setIcon(icon_b61cb26217e81f50605cb86b0c26cf0c);
+        
+    
+        var popup_64a427ba3ac8f5af52ed0cc5bae96fdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b55188a487de9c84392ea4f2e800c309 = $(`<div id="html_b55188a487de9c84392ea4f2e800c309" style="width: 100.0%; height: 100.0%;">['Wenshan Sports Center(Xinglong)', '文山運動中心(興隆)', '返程往 指南宮']</div>`)[0];
+                popup_64a427ba3ac8f5af52ed0cc5bae96fdf.setContent(html_b55188a487de9c84392ea4f2e800c309);
+            
+        
+
+        marker_93e570fc2c74c2b08c6fbe3371e341b2.bindPopup(popup_64a427ba3ac8f5af52ed0cc5bae96fdf)
+        ;
+
+        
+    
+    
+            var marker_15c1a55ed469668c6dd8c9381eb3542d = L.marker(
+                [24.9946704139026, 121.559493216995],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_a9166cb75b35bbeb753f8bf3ae25a8b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_15c1a55ed469668c6dd8c9381eb3542d.setIcon(icon_a9166cb75b35bbeb753f8bf3ae25a8b6);
+        
+    
+        var popup_a27cab4428c97d08327092e0db24ac9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96d9c39f37771f0221ba50013a66440c = $(`<div id="html_96d9c39f37771f0221ba50013a66440c" style="width: 100.0%; height: 100.0%;">['Coast Guard Administration', '海巡署', '返程往 指南宮']</div>`)[0];
+                popup_a27cab4428c97d08327092e0db24ac9f.setContent(html_96d9c39f37771f0221ba50013a66440c);
+            
+        
+
+        marker_15c1a55ed469668c6dd8c9381eb3542d.bindPopup(popup_a27cab4428c97d08327092e0db24ac9f)
+        ;
+
+        
+    
+    
+            var marker_a064e4e4703a2b0def97786c661b8984 = L.marker(
+                [24.993046, 121.558778],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_9d016681e125a86cb6e8b6acd4656238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a064e4e4703a2b0def97786c661b8984.setIcon(icon_9d016681e125a86cb6e8b6acd4656238);
+        
+    
+        var popup_a01d8b44adf044d2adbaf8a8b362c720 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_becec02c09d418c1b04a047e57c2f2d9 = $(`<div id="html_becec02c09d418c1b04a047e57c2f2d9" style="width: 100.0%; height: 100.0%;">['Coast Guard Administration 1', '海巡署一', '返程往 指南宮']</div>`)[0];
+                popup_a01d8b44adf044d2adbaf8a8b362c720.setContent(html_becec02c09d418c1b04a047e57c2f2d9);
+            
+        
+
+        marker_a064e4e4703a2b0def97786c661b8984.bindPopup(popup_a01d8b44adf044d2adbaf8a8b362c720)
+        ;
+
+        
+    
+    
+            var marker_bcac41568ab9dabee08441539cc509bc = L.marker(
+                [24.9913869, 121.5586916],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_5e215b6320e2b8a3cc4b139a82851723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcac41568ab9dabee08441539cc509bc.setIcon(icon_5e215b6320e2b8a3cc4b139a82851723);
+        
+    
+        var popup_33a26a00d4d7e48d1936ba4fa725f3df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812ed5ca692463828df233c6d90a1d07 = $(`<div id="html_812ed5ca692463828df233c6d90a1d07" style="width: 100.0%; height: 100.0%;">['Xinglong Shanzhuang', '興隆山莊', '返程往 指南宮']</div>`)[0];
+                popup_33a26a00d4d7e48d1936ba4fa725f3df.setContent(html_812ed5ca692463828df233c6d90a1d07);
+            
+        
+
+        marker_bcac41568ab9dabee08441539cc509bc.bindPopup(popup_33a26a00d4d7e48d1936ba4fa725f3df)
+        ;
+
+        
+    
+    
+            var marker_e34083a8896d5bba041cccddc1f81850 = L.marker(
+                [24.98937794, 121.5597219],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_4787c7c33c4fb52aad50f0a103ae8b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e34083a8896d5bba041cccddc1f81850.setIcon(icon_4787c7c33c4fb52aad50f0a103ae8b53);
+        
+    
+        var popup_df45ee99dd3cc007670922eb9fb2945a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e197e8794476671e7ff4cc1d841bfc = $(`<div id="html_f7e197e8794476671e7ff4cc1d841bfc" style="width: 100.0%; height: 100.0%;">['Mamingtan(Zaixing High School)', '馬明潭(再興中學)', '返程往 指南宮']</div>`)[0];
+                popup_df45ee99dd3cc007670922eb9fb2945a.setContent(html_f7e197e8794476671e7ff4cc1d841bfc);
+            
+        
+
+        marker_e34083a8896d5bba041cccddc1f81850.bindPopup(popup_df45ee99dd3cc007670922eb9fb2945a)
+        ;
+
+        
+    
+    
+            var marker_151ed9c375841633c426ac85f7869fa9 = L.marker(
+                [24.98887, 121.56251],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_18f8bd06eeb2424165100c6b1e81e5a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_151ed9c375841633c426ac85f7869fa9.setIcon(icon_18f8bd06eeb2424165100c6b1e81e5a9);
+        
+    
+        var popup_9d330d6457f7d4d5d1721fc3d1789ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2769a2d0b9353765f5425de6d3fe998 = $(`<div id="html_c2769a2d0b9353765f5425de6d3fe998" style="width: 100.0%; height: 100.0%;">['Wenshan Police Sta. 1', '文山一分局', '返程往 指南宮']</div>`)[0];
+                popup_9d330d6457f7d4d5d1721fc3d1789ad3.setContent(html_c2769a2d0b9353765f5425de6d3fe998);
+            
+        
+
+        marker_151ed9c375841633c426ac85f7869fa9.bindPopup(popup_9d330d6457f7d4d5d1721fc3d1789ad3)
+        ;
+
+        
+    
+    
+            var marker_e09553c2f1eca3daca991797a6d64528 = L.marker(
+                [24.988516909169, 121.566555600343],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_13d8f3bb9c3c2a59a5b24d1df1b157b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e09553c2f1eca3daca991797a6d64528.setIcon(icon_13d8f3bb9c3c2a59a5b24d1df1b157b2);
+        
+    
+        var popup_75455c837a89db8b800e618a22c99c91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc4c52b6200f4725bf4042d2dbc6d67b = $(`<div id="html_dc4c52b6200f4725bf4042d2dbc6d67b" style="width: 100.0%; height: 100.0%;">['Muzha', '木柵', '返程往 指南宮']</div>`)[0];
+                popup_75455c837a89db8b800e618a22c99c91.setContent(html_dc4c52b6200f4725bf4042d2dbc6d67b);
+            
+        
+
+        marker_e09553c2f1eca3daca991797a6d64528.bindPopup(popup_75455c837a89db8b800e618a22c99c91)
+        ;
+
+        
+    
+    
+            var marker_d5b22cd7aa19fe98ed5db5ea7c760a26 = L.marker(
+                [24.9883715404261, 121.568546705585],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_d3f98f74e3354dc2d094d58513bde09d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5b22cd7aa19fe98ed5db5ea7c760a26.setIcon(icon_d3f98f74e3354dc2d094d58513bde09d);
+        
+    
+        var popup_5547f75405f9262804c7257546e53155 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4db14e7b4eb139dffb607a7d76126c5d = $(`<div id="html_4db14e7b4eb139dffb607a7d76126c5d" style="width: 100.0%; height: 100.0%;">['Muja Market', '木柵市場', '返程往 指南宮']</div>`)[0];
+                popup_5547f75405f9262804c7257546e53155.setContent(html_4db14e7b4eb139dffb607a7d76126c5d);
+            
+        
+
+        marker_d5b22cd7aa19fe98ed5db5ea7c760a26.bindPopup(popup_5547f75405f9262804c7257546e53155)
+        ;
+
+        
+    
+    
+            var marker_8fc1fc9c732708356799530c62774bc7 = L.marker(
+                [24.98672, 121.56893],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_c068b5bf373821bcf69e5c1bbbd20f1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fc1fc9c732708356799530c62774bc7.setIcon(icon_c068b5bf373821bcf69e5c1bbbd20f1b);
+        
+    
+        var popup_df50bd0c44351f724a9792b7b20a4269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_364de5745ab5c20109d3d8b089675e9a = $(`<div id="html_364de5745ab5c20109d3d8b089675e9a" style="width: 100.0%; height: 100.0%;">['Yongan St.', '永安街', '返程往 指南宮']</div>`)[0];
+                popup_df50bd0c44351f724a9792b7b20a4269.setContent(html_364de5745ab5c20109d3d8b089675e9a);
+            
+        
+
+        marker_8fc1fc9c732708356799530c62774bc7.bindPopup(popup_df50bd0c44351f724a9792b7b20a4269)
+        ;
+
+        
+    
+    
+            var marker_6439c905717a236e58b2e325cb9dcf6b = L.marker(
+                [24.9871941238226, 121.570722800802],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_7ca53c6817e185ca9cd92e15c187e016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6439c905717a236e58b2e325cb9dcf6b.setIcon(icon_7ca53c6817e185ca9cd92e15c187e016);
+        
+    
+        var popup_d7ac4fd35a9b4c283676a0f2b38be62e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3005767ac2b8272ba894062cabf1143f = $(`<div id="html_3005767ac2b8272ba894062cabf1143f" style="width: 100.0%; height: 100.0%;">['Zhinan Rd. Entrance', '指南路口', '返程往 指南宮']</div>`)[0];
+                popup_d7ac4fd35a9b4c283676a0f2b38be62e.setContent(html_3005767ac2b8272ba894062cabf1143f);
+            
+        
+
+        marker_6439c905717a236e58b2e325cb9dcf6b.bindPopup(popup_d7ac4fd35a9b4c283676a0f2b38be62e)
+        ;
+
+        
+    
+    
+            var marker_ade4ed6322a1f19b64724cf41362b535 = L.marker(
+                [24.9878362086283, 121.574633255625],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_35783d79b1a3316bf7a019f6f9d60ea8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ade4ed6322a1f19b64724cf41362b535.setIcon(icon_35783d79b1a3316bf7a019f6f9d60ea8);
+        
+    
+        var popup_15756845fbf15b52e6c110fc136c2a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0eaaf51fd7976ab95cb913d4b27d7f = $(`<div id="html_9a0eaaf51fd7976ab95cb913d4b27d7f" style="width: 100.0%; height: 100.0%;">['National Chengchi U.', '政大', '返程往 指南宮']</div>`)[0];
+                popup_15756845fbf15b52e6c110fc136c2a3c.setContent(html_9a0eaaf51fd7976ab95cb913d4b27d7f);
+            
+        
+
+        marker_ade4ed6322a1f19b64724cf41362b535.bindPopup(popup_15756845fbf15b52e6c110fc136c2a3c)
+        ;
+
+        
+    
+    
+            var marker_c9ee4420eceb06e7b97a855526be1816 = L.marker(
+                [24.988319, 121.576427],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_3735cb55665fef07009d1e2db0c44a87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9ee4420eceb06e7b97a855526be1816.setIcon(icon_3735cb55665fef07009d1e2db0c44a87);
+        
+    
+        var popup_084c5ef3350ff39f32a46d1b1106431e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae36fe65a88055f7b2e371c3bda87a3 = $(`<div id="html_bae36fe65a88055f7b2e371c3bda87a3" style="width: 100.0%; height: 100.0%;">['National Chengchi U. 1', '政大一', '返程往 指南宮']</div>`)[0];
+                popup_084c5ef3350ff39f32a46d1b1106431e.setContent(html_bae36fe65a88055f7b2e371c3bda87a3);
+            
+        
+
+        marker_c9ee4420eceb06e7b97a855526be1816.bindPopup(popup_084c5ef3350ff39f32a46d1b1106431e)
+        ;
+
+        
+    
+    
+            var marker_7535f5e5a3ebba30e5d87a201da9b5ca = L.marker(
+                [24.9889796040779, 121.578601086333],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_5ae13911a937643337a719f599471483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7535f5e5a3ebba30e5d87a201da9b5ca.setIcon(icon_5ae13911a937643337a719f599471483);
+        
+    
+        var popup_a559e26d5e30705f00719436319d4171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_593246a061219db77e0ceece0075a150 = $(`<div id="html_593246a061219db77e0ceece0075a150" style="width: 100.0%; height: 100.0%;">['Zhinan Shanzhuang', '指南山莊', '返程往 指南宮']</div>`)[0];
+                popup_a559e26d5e30705f00719436319d4171.setContent(html_593246a061219db77e0ceece0075a150);
+            
+        
+
+        marker_7535f5e5a3ebba30e5d87a201da9b5ca.bindPopup(popup_a559e26d5e30705f00719436319d4171)
+        ;
+
+        
+    
+    
+            var marker_8d6ebe0bf569173e8c51f01b67865151 = L.marker(
+                [24.98914141, 121.5804463],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_76f1c1ba19bac7d2cf796f172ad5bd46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d6ebe0bf569173e8c51f01b67865151.setIcon(icon_76f1c1ba19bac7d2cf796f172ad5bd46);
+        
+    
+        var popup_beb39ed443965489f497291963fda17a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86aba6612941cdd2126a02688691a16b = $(`<div id="html_86aba6612941cdd2126a02688691a16b" style="width: 100.0%; height: 100.0%;">['The Institute of International Relations', '國關中心', '返程往 指南宮']</div>`)[0];
+                popup_beb39ed443965489f497291963fda17a.setContent(html_86aba6612941cdd2126a02688691a16b);
+            
+        
+
+        marker_8d6ebe0bf569173e8c51f01b67865151.bindPopup(popup_beb39ed443965489f497291963fda17a)
+        ;
+
+        
+    
+    
+            var marker_3cf0900b87c6cfc669d654d75a5a8d5a = L.marker(
+                [24.989841, 121.586251],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_0f84b6f2412294c22ccc9adac3836faf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cf0900b87c6cfc669d654d75a5a8d5a.setIcon(icon_0f84b6f2412294c22ccc9adac3836faf);
+        
+    
+        var popup_ea5d6ad9643e7c4654613d6a105b9452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2babba940175e590b460eebb34c96995 = $(`<div id="html_2babba940175e590b460eebb34c96995" style="width: 100.0%; height: 100.0%;">['Maokong Gondola Taipei Zoo Station', '貓纜動物園南站', '返程往 指南宮']</div>`)[0];
+                popup_ea5d6ad9643e7c4654613d6a105b9452.setContent(html_2babba940175e590b460eebb34c96995);
+            
+        
+
+        marker_3cf0900b87c6cfc669d654d75a5a8d5a.bindPopup(popup_ea5d6ad9643e7c4654613d6a105b9452)
+        ;
+
+        
+    
+    
+            var marker_c7e52c3ac724a08de79c6f7ccc6609a8 = L.marker(
+                [24.98948011, 121.5874366],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_67be8656cab258a0c8388a07089b28a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c7e52c3ac724a08de79c6f7ccc6609a8.setIcon(icon_67be8656cab258a0c8388a07089b28a1);
+        
+    
+        var popup_095bb01eb74469555455238d6946badd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_302ecc078f1085c85d7fa498fe2c5228 = $(`<div id="html_302ecc078f1085c85d7fa498fe2c5228" style="width: 100.0%; height: 100.0%;">['Chengda Qingjing Community', '政大清境社區', '返程往 指南宮']</div>`)[0];
+                popup_095bb01eb74469555455238d6946badd.setContent(html_302ecc078f1085c85d7fa498fe2c5228);
+            
+        
+
+        marker_c7e52c3ac724a08de79c6f7ccc6609a8.bindPopup(popup_095bb01eb74469555455238d6946badd)
+        ;
+
+        
+    
+    
+            var marker_eabdd84c3dbe1cad4b32ed0eba998e96 = L.marker(
+                [24.98829565, 121.58742],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_3cfb4662aa2b86f050d64a8d77694c38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eabdd84c3dbe1cad4b32ed0eba998e96.setIcon(icon_3cfb4662aa2b86f050d64a8d77694c38);
+        
+    
+        var popup_1f651933dc5220acb53c876d23e6c265 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a1cd7a36aa1037905771b7009ccb19b = $(`<div id="html_9a1cd7a36aa1037905771b7009ccb19b" style="width: 100.0%; height: 100.0%;">['Greenfield Shanzhuang', '綠野山莊', '返程往 指南宮']</div>`)[0];
+                popup_1f651933dc5220acb53c876d23e6c265.setContent(html_9a1cd7a36aa1037905771b7009ccb19b);
+            
+        
+
+        marker_eabdd84c3dbe1cad4b32ed0eba998e96.bindPopup(popup_1f651933dc5220acb53c876d23e6c265)
+        ;
+
+        
+    
+    
+            var marker_90a3c4d038dc5af90a234fdeb7206483 = L.marker(
+                [24.98715168, 121.5876992],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_8d26c1b9075c30b043ee338a13736867 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90a3c4d038dc5af90a234fdeb7206483.setIcon(icon_8d26c1b9075c30b043ee338a13736867);
+        
+    
+        var popup_9b614e0713c22c364078677a3978b1e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c03f558985b2a4afb25ede17c4a3d1a = $(`<div id="html_6c03f558985b2a4afb25ede17c4a3d1a" style="width: 100.0%; height: 100.0%;">['Qixia Shanzhuang', '棲霞山莊', '返程往 指南宮']</div>`)[0];
+                popup_9b614e0713c22c364078677a3978b1e7.setContent(html_6c03f558985b2a4afb25ede17c4a3d1a);
+            
+        
+
+        marker_90a3c4d038dc5af90a234fdeb7206483.bindPopup(popup_9b614e0713c22c364078677a3978b1e7)
+        ;
+
+        
+    
+    
+            var marker_9e08366ffa1be57232aa517a169a029a = L.marker(
+                [24.98565649, 121.5872664],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_360450bf3520bb5866639f512f72d6a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e08366ffa1be57232aa517a169a029a.setIcon(icon_360450bf3520bb5866639f512f72d6a8);
+        
+    
+        var popup_e0b346a8f978ecf046cd7ac16d19d938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e062af6bff66dec84c2d7db6b861abb = $(`<div id="html_5e062af6bff66dec84c2d7db6b861abb" style="width: 100.0%; height: 100.0%;">['Zhengda Yuhuayuan', '政大御花園', '返程往 指南宮']</div>`)[0];
+                popup_e0b346a8f978ecf046cd7ac16d19d938.setContent(html_5e062af6bff66dec84c2d7db6b861abb);
+            
+        
+
+        marker_9e08366ffa1be57232aa517a169a029a.bindPopup(popup_e0b346a8f978ecf046cd7ac16d19d938)
+        ;
+
+        
+    
+    
+            var marker_131e1116a6c25a8f60ea8a479b29571f = L.marker(
+                [24.98294, 121.58903],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_17c225ddcddd5e90eefd8987e6d2ea4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_131e1116a6c25a8f60ea8a479b29571f.setIcon(icon_17c225ddcddd5e90eefd8987e6d2ea4b);
+        
+    
+        var popup_ac72ace382a947255fdd80ade690b98b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af302998a0bff15cd0b9b3d8f2a7eec4 = $(`<div id="html_af302998a0bff15cd0b9b3d8f2a7eec4" style="width: 100.0%; height: 100.0%;">['Hou Zih Keng', '猴山坑', '返程往 指南宮']</div>`)[0];
+                popup_ac72ace382a947255fdd80ade690b98b.setContent(html_af302998a0bff15cd0b9b3d8f2a7eec4);
+            
+        
+
+        marker_131e1116a6c25a8f60ea8a479b29571f.bindPopup(popup_ac72ace382a947255fdd80ade690b98b)
+        ;
+
+        
+    
+    
+            var marker_931838e3be4998aefbd51d068e30ca91 = L.marker(
+                [24.9812125534647, 121.585437474256],
+                {}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+    
+            var icon_7e2915e6f8553fd1a584d7347281f85c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_931838e3be4998aefbd51d068e30ca91.setIcon(icon_7e2915e6f8553fd1a584d7347281f85c);
+        
+    
+        var popup_067baa0ebc81edfa7f65a237e46473e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ffee4c1a143cc66e5beb792dd646df4 = $(`<div id="html_8ffee4c1a143cc66e5beb792dd646df4" style="width: 100.0%; height: 100.0%;">['Zhinan Temple', '指南宮', '返程往 指南宮']</div>`)[0];
+                popup_067baa0ebc81edfa7f65a237e46473e8.setContent(html_8ffee4c1a143cc66e5beb792dd646df4);
+            
+        
+
+        marker_931838e3be4998aefbd51d068e30ca91.bindPopup(popup_067baa0ebc81edfa7f65a237e46473e8)
+        ;
+
+        
+    
+    
+            var poly_line_7ad91d43306e96b85fffc6644150f40a = L.polyline(
+                [[[24.9812149808253, 121.585421349811], [24.9812943924607, 121.585438516991], [24.9814033636328, 121.585445484423], [24.9815971285051, 121.585456594007], [24.9821277232236, 121.585467320501], [24.9823148892698, 121.585470768303], [24.9823909362462, 121.585512141924], [24.9823985756659, 121.585543555229], [24.9823624620414, 121.585707517356], [24.9823235704339, 121.585848111049], [24.9822829425808, 121.586116656496], [24.9822676637266, 121.586152283781], [24.9822051593033, 121.586247289873], [24.9821159168215, 121.586401674773], [24.9820047976876, 121.586640722361], [24.9818020050094, 121.58723374426], [24.9817513067876, 121.587365526905], [24.9817283884064, 121.587491946302], [24.9817401948457, 121.587627559837], [24.9817804756301, 121.587737123315], [24.9818520087145, 121.587875801563], [24.9818693711074, 121.587925603143], [24.9818992344174, 121.588260423001], [24.9819235417574, 121.588363857054], [24.982002019708, 121.588525520646], [24.9821742543267, 121.588888689097], [24.9823277373924, 121.589103218983], [24.9824471901437, 121.589343798927], [24.9825249732681, 121.589437272663], [24.982634008458, 121.589476347749], [24.9827437380419, 121.589450297691], [24.9827777680828, 121.58940509318], [24.9829118046831, 121.589069507143], [24.9830152836165, 121.588879494959], [24.9830895939378, 121.588788319757], [24.9832604380576, 121.588648875331], [24.9834396157819, 121.588555401595], [24.9837931090536, 121.588451967543], [24.9843952259017, 121.588371518835], [24.9846806574258, 121.588307159869], [24.9849883115869, 121.588274214208], [24.9851202623457, 121.588248930329], [24.9852508240097, 121.588159287484], [24.9853480506907, 121.588042062224], [24.9854633336557, 121.587857413287], [24.9856043120744, 121.587549409664], [24.9856959826836, 121.587424522623], [24.9858091819021, 121.587349437163], [24.9859911338019, 121.587318023858], [24.9861411397457, 121.587340243025], [24.9863710096101, 121.587406900526], [24.9866911599741, 121.587595380354], [24.9868613046221, 121.587706476188], [24.9870335324342, 121.587817572022], [24.9871175628518, 121.587859711821], [24.9872772899334, 121.587862010356], [24.9875099355288, 121.587832129407], [24.9878168881482, 121.587756277769], [24.9881293956839, 121.587636753975], [24.9883981515292, 121.587578524435], [24.988478014264, 121.587611470096], [24.98873288021, 121.587978469437], [24.9888509378261, 121.588091863805], [24.9889238557088, 121.588111018259], [24.9891037196345, 121.58807730642], [24.9892981668258, 121.587967742942], [24.9894148349929, 121.587845920614], [24.9894821969199, 121.587674296705], [24.9896801157703, 121.586852187534], [24.9897259495639, 121.586725768137], [24.989816922649, 121.586517367676], [24.9899495626755, 121.58619863756], [24.9900030353158, 121.5860147548], [24.990007202014, 121.585857688276], [24.9899599794254, 121.58545544474], [24.9899572016255, 121.585388787239], [24.989983590722, 121.585276925227], [24.990176647624, 121.58501259376], [24.9902370646498, 121.584896900857], [24.9902551203069, 121.58477048146], [24.9902627592379, 121.584270933297], [24.9902530369619, 121.584189718411], [24.9902078978134, 121.584010432721], [24.9901377584883, 121.58388554568], [24.9900592857305, 121.583801266082], [24.9900141465108, 121.583678677575], [24.9899849796216, 121.583495560994], [24.9899634516752, 121.583130860187], [24.9899328958737, 121.582977624554], [24.9898669230947, 121.582835881594], [24.9897648388299, 121.582734746076], [24.9896703934483, 121.582651998834], [24.9896224762783, 121.58259530165], [24.9896044205283, 121.582524047081], [24.9896058094322, 121.582415249781], [24.9896731712546, 121.582152450671], [24.9896030316243, 121.581770127766], [24.9895273363349, 121.581404660782], [24.989501641593, 121.581352560666], [24.989417612805, 121.581279773741], [24.9893321950526, 121.581196260321], [24.9892356659764, 121.58103383055], [24.9891905264543, 121.580826962445], [24.9892384437926, 121.58004009747], [24.9892405271547, 121.579661605456], [24.9892252491651, 121.579365860685], [24.9890960806314, 121.578803485912], [24.9889696897843, 121.578261797949], [24.9888189928352, 121.577612845043], [24.9887037130168, 121.577126321909], [24.9886523231833, 121.576907961132], [24.9885946832095, 121.576747829895], [24.9884891255969, 121.576560116245], [24.9883412058952, 121.576366273169], [24.9880099484529, 121.576002338541], [24.9879575166376, 121.57599850765], [24.9878811258732, 121.576013831213], [24.9877116770991, 121.576078956357], [24.9876582034621, 121.576061334259], [24.987644314202, 121.576016895926], [24.9876672314804, 121.575841441126], [24.9879373772588, 121.574348159883], [24.9880415464235, 121.573922164823], [24.9881332152155, 121.573561294907], [24.9881804385059, 121.573277808986], [24.9881748828256, 121.573083965911], [24.9880665470099, 121.572768300507], [24.9877964015153, 121.57207797398], [24.987670009332, 121.571745452657], [24.987645703128, 121.571583789064], [24.9876637591658, 121.571348572367], [24.9877450113026, 121.570760147536], [24.9878172353792, 121.570588523627], [24.9876852875149, 121.569702821669], [24.9876338972558, 121.569371832702], [24.9876588979251, 121.568700660629], [24.9876873709034, 121.568645495801], [24.9877540393145, 121.568639366376], [24.9882728016537, 121.568659287008], [24.9884387773616, 121.568639366376], [24.9888110065862, 121.568562748559], [24.9888748965637, 121.568547424996], [24.9889144805548, 121.568442458588], [24.9887748948452, 121.567666320107], [24.988701282417, 121.567247986828], [24.9885596130917, 121.566271109668], [24.9884207214377, 121.565378512106], [24.9884130823922, 121.565178539605], [24.9884325272344, 121.564945621443], [24.9884964174086, 121.564668264947], [24.9886158641669, 121.564367156928], [24.9889825372115, 121.563444678418], [24.9890429548241, 121.563194904336], [24.9890346213621, 121.562984205341], [24.9889533700775, 121.562315331803], [24.9888498961417, 121.561424266597], [24.9887922562605, 121.560847334439], [24.9887748948452, 121.560623610415], [24.9887814921833, 121.560285725844], [24.9888040620215, 121.56022902866], [24.9888724659673, 121.560173863832], [24.9892922639691, 121.559971209707], [24.9896846297052, 121.559784262235], [24.9902422730126, 121.559562070567], [24.9904922741723, 121.55939810844], [24.9909700527518, 121.559054094444], [24.9912707467487, 121.558926908868], [24.9919131044397, 121.55873842904], [24.9921381024479, 121.558698587775], [24.9923755998985, 121.558733831971], [24.9929137868679, 121.558933804472], [24.9936255789175, 121.559254833123], [24.9940679295583, 121.559462467406], [24.9943901431516, 121.559615703039], [24.9948609623573, 121.559696917924], [24.9956414905181, 121.559903786029], [24.9958956471945, 121.559989597983], [24.9962331331164, 121.560096862926], [24.9966928346713, 121.560006453903], [24.9970317072239, 121.559894591891], [24.9973775229229, 121.559726032694], [24.9976427865144, 121.559522229303], [24.9980247095278, 121.558995098725], [24.9982774724694, 121.558746857], [24.9988038287945, 121.558239647054], [24.99916908265, 121.557776875443], [24.9996815472559, 121.556978517795], [25.0001051274982, 121.556315007504], [25.0004648223608, 121.555654561926], [25.0006328647736, 121.555341961235], [25.001032832567, 121.554200355769], [25.0014869610874, 121.552943823579], [25.0018091552277, 121.5520412657], [25.0018841485701, 121.55172406794], [25.0018702609176, 121.55141912903], [25.0017619371737, 121.551163225523], [25.0014661295406, 121.550758683452], [25.000941173396, 121.550040008333], [25.0007717426272, 121.549551186664], [25.0006828608189, 121.549158903444], [25.0005995340653, 121.548884611661], [25.0004356579517, 121.548568946257], [24.9999926358385, 121.547995844989], [24.9997870952561, 121.547776718034], [24.9994343423741, 121.547335399411], [24.9991857481993, 121.546768427569], [24.9988579919823, 121.545655936874], [24.9986816143342, 121.544995491296], [24.9986649487166, 121.544872902789], [24.9987038351542, 121.54453042115], [24.9987892463937, 121.544419325316], [24.9993530979645, 121.544118217297], [24.9999544442023, 121.543830134307], [25.0001933153322, 121.543644719191], [25.0005002362768, 121.543359700914], [25.0008321544445, 121.543082344418], [25.0018917867783, 121.542155268838], [25.0021167665171, 121.541992839067], [25.0026569939605, 121.541626605904], [25.003472191287, 121.541090281189], [25.0038402087507, 121.540869621878], [25.0040276889216, 121.54065968906], [25.0041623967195, 121.540431367967], [25.0042221125003, 121.540219902794], [25.0043734849306, 121.539167173995], [25.0043984821947, 121.538987888305], [25.0044176104174, 121.538893706978], [25.0044848508469, 121.53882269244], [25.0046106864089, 121.538825342236], [25.0048479485301, 121.53887833816], [25.0051860702755, 121.538939813431], [25.0055227502363, 121.538987509763], [25.0057023765427, 121.539006588295], [25.0058387770918, 121.539019307317], [25.0060539438473, 121.539023017032], [25.0062201214854, 121.539014007725], [25.0064266425142, 121.538985919885], [25.0067455487231, 121.538901656366], [25.0070543682538, 121.538797254397], [25.0072959481541, 121.53866966671], [25.0077392436339, 121.538413166439], [25.0085288147188, 121.537964290965], [25.0094586194153, 121.537556222353], [25.0099408087486, 121.537406773848], [25.0104767859053, 121.537279583631], [25.0108706027555, 121.537205389338], [25.0114862992517, 121.537008244502], [25.0115544963336, 121.536972207273], [25.0124276077404, 121.536492594164], [25.0126456444938, 121.536362224191], [25.0129035420922, 121.536230087688], [25.0130392943038, 121.536129748739], [25.0133088772602, 121.53585840961], [25.0140670361312, 121.535091735247], [25.0143023589843, 121.534851133753], [25.016121533494, 121.532915016007], [25.0162886579947, 121.53285495396], [25.0165278185225, 121.532626011569], [25.0166296296901, 121.532522846171], [25.016939544926, 121.532195684669], [25.0177066458024, 121.531406398712], [25.0180707752838, 121.531034853171], [25.0181958461956, 121.53090258413], [25.0195315326299, 121.529560020729], [25.0196352622242, 121.529551541381], [25.020246112502, 121.53024967435], [25.0210759419722, 121.531237518368], [25.0217303251446, 121.531948370358], [25.0220082128337, 121.532454304777], [25.0221490773207, 121.532898057311], [25.0222118259947, 121.533338983396], [25.022227193012, 121.533960802235], [25.0222182289188, 121.534273124879], [25.0221311491222, 121.534329653864], [25.0219659534561, 121.534292910023], [25.0215331141448, 121.534213769444], [25.0206098038862, 121.534020157669], [25.0182278618602, 121.533535068314]], [[25.0182278618602, 121.533535068314], [25.0171910714827, 121.533323513946], [25.0168846020008, 121.533165151123], [25.0165817802138, 121.532825610495], [25.0165130675357, 121.532740389824], [25.0164419225098, 121.532690062656], [25.0163719935981, 121.532667247673], [25.0163209150635, 121.53268133928], [25.0161032229753, 121.532895397502], [25.0158660719373, 121.533120192186], [25.0157663467486, 121.533230240927], [25.01519961426, 121.533820075338], [25.0142169474361, 121.534897076737], [25.0140618848117, 121.535078254543], [25.0133005548896, 121.535837859268], [25.0130384665799, 121.536100231571], [25.01289860484, 121.536207596196], [25.0126383399608, 121.5363283814], [25.0125136801855, 121.536397497378], [25.0118149750048, 121.536779312827], [25.0115091002063, 121.53694975417], [25.01138322308, 121.536997397222], [25.0110445095919, 121.53709738053], [25.0107520111962, 121.537178575028], [25.0102837690709, 121.537278558335], [25.0100441743578, 121.537327543445], [25.0098179576008, 121.537386593989], [25.0096057269849, 121.537458394083], [25.0094208610492, 121.537520799771], [25.008531189842, 121.537918719914], [25.0082228743931, 121.538099226691], [25.0077278653277, 121.538391124266], [25.0072967071574, 121.538644102165], [25.0070492010078, 121.538766229426], [25.0067475712176, 121.538875607138], [25.0064240481193, 121.538956130607], [25.0062197173024, 121.538980958677], [25.0059898447271, 121.538988339995], [25.0056194935621, 121.538955459578], [25.0051652189335, 121.538892382861], [25.0048745309403, 121.538839371577], [25.0047030368644, 121.538801793958], [25.0044664719483, 121.538768242513], [25.0044269430619, 121.538772268686], [25.0043426327916, 121.538825591594], [25.0042804045891, 121.538937742196], [25.0041694308831, 121.539780016109], [25.0041025354698, 121.540213741398], [25.0040288986162, 121.540454636314], [25.003905479002, 121.540634306157], [25.003727090769, 121.540799671076], [25.0034901036752, 121.540965035995], [25.0025265934526, 121.541600174611], [25.0020391311503, 121.541917171722], [25.0017622102151, 121.542123162624], [25.0010310114872, 121.542756012452], [25.0004128599485, 121.543314476677], [25.0000291065897, 121.543621174243], [24.9998507127283, 121.543753923935], [24.999039909857, 121.544172218665], [24.9987808550527, 121.544282946693], [24.9985661425488, 121.54460354296], [24.9985381365423, 121.544774785142], [24.9986618296893, 121.545235722747], [24.9990247399962, 121.54658892225], [24.9992056112923, 121.547075610559], [24.999395817594, 121.547427107671], [24.9997482235833, 121.547863582106], [25.0000446172422, 121.548240829922], [25.0002418236506, 121.548491899288], [25.0004436973384, 121.548809920484], [25.0006000617011, 121.549202618722], [25.0007575927607, 121.549823210693], [25.0008369416625, 121.550034366467], [25.001003807568, 121.550303461325], [25.0014017176589, 121.550867401746], [25.001696940442, 121.551265250126], [25.0017996264611, 121.551485418646], [25.001772788078, 121.551791852026], [25.0017226119548, 121.552021033293], [25.0012488549905, 121.55330341836], [25.0009326270346, 121.554204693005], [25.0006957472577, 121.554898674482], [25.0005195457482, 121.555326136171], [25.0003083369832, 121.555714971804], [24.9997412221496, 121.556730837083], [24.9994168219528, 121.557260014054], [24.999094754723, 121.557692625884], [24.9987610175001, 121.558161288699], [24.9981752247983, 121.558713641304], [24.9979745143059, 121.558906771585], [24.9974855728391, 121.559514488203], [24.9973081997974, 121.559650966935], [24.9969207788425, 121.559831221864], [24.9963548153123, 121.559988301159], [24.9961144258902, 121.559981863483], [24.9956546506373, 121.559811908836], [24.9952485532979, 121.559678005174], [24.99482845119, 121.559575002358], [24.9944071806897, 121.559513200668], [24.9940734307364, 121.559361271513], [24.9934140968712, 121.559025224824], [24.9930231627321, 121.558853982641], [24.9923066414104, 121.558610638487], [24.9919740527326, 121.558600338205], [24.9916671367684, 121.558700765952], [24.99124352146, 121.558828231937], [24.9908980930206, 121.558963423134], [24.9906156812103, 121.559165566162], [24.9901628873671, 121.559490025034], [24.9894953635049, 121.559759119892], [24.9889643760261, 121.559997313906], [24.9888371720918, 121.560041090103], [24.9887461453423, 121.560140230314], [24.9887263061701, 121.560236795455], [24.9887216381291, 121.560711895946], [24.9888161659248, 121.561731623831], [24.98896787705, 121.563014008898], [24.9889620420102, 121.563319154743], [24.9888231679809, 121.563683527206], [24.9885699267, 121.564374933613], [24.9884368872928, 121.564713555373], [24.9883750355895, 121.565111403752], [24.9883586973985, 121.565240157273], [24.9883750355895, 121.565421699737], [24.9886854608053, 121.567416091774], [24.9888266690087, 121.568242689378], [24.9888663473177, 121.568460282828], [24.9888371720918, 121.568497621349], [24.9884275511886, 121.568589036349], [24.9882548331337, 121.568605774306], [24.9876759924779, 121.568583886208], [24.9874425882166, 121.568578736067], [24.9871356609385, 121.568560710574], [24.9868859172647, 121.568358567546], [24.9868170626112, 121.56837916811], [24.9867925550134, 121.568444832405], [24.9867517090061, 121.569195465432], [24.9867283684244, 121.569455547544], [24.9866513444735, 121.570070989373], [24.9865544809516, 121.570597591273], [24.9866280038728, 121.57070316916], [24.9867143640733, 121.570736645076], [24.9876783265183, 121.570699306554], [24.9877004998996, 121.570746945357], [24.9876141403918, 121.571354661975], [24.9875989691206, 121.571590280918], [24.9876269776198, 121.571737059932], [24.9877483477089, 121.572058943734], [24.98803310014, 121.572783826056], [24.9881334635446, 121.57308639683], [24.9881463007184, 121.57327437697], [24.9880914509666, 121.573561497322], [24.9879957555965, 121.573897544011], [24.9878988931338, 121.574337881052], [24.987676575988, 121.575566833408], [24.9876614047245, 121.575658892176], [24.9877203392374, 121.575772195274], [24.9878860559342, 121.575938287316], [24.9880471043409, 121.576111460801], [24.9884561430054, 121.57659814911], [24.9885617576178, 121.57680222344], [24.9886364463496, 121.577023035728], [24.9887525638974, 121.577579250938], [24.9890413985279, 121.578806271991], [24.9891347590714, 121.579247896568], [24.9891586826993, 121.57938695037], [24.9891785218018, 121.579660551602], [24.989174437281, 121.580003035967], [24.9891645177298, 121.580257324171], [24.9891435116187, 121.580892079028], [24.9891861073401, 121.581063321211], [24.9892940553351, 121.581242288605], [24.989450433884, 121.581390355154], [24.989474940952, 121.581440569027], [24.9896143977459, 121.582144850786], [24.9895373756032, 121.582459653144], [24.9895420436132, 121.582520811066], [24.9895834721944, 121.582631539094], [24.9897818623898, 121.582824669375], [24.9898705543736, 121.582949560291], [24.9898956448574, 121.583101489445], [24.9899178178388, 121.583413072965], [24.9899248198321, 121.583616503528], [24.9899720832765, 121.583746544584], [24.9900496886457, 121.583886242154], [24.9901407144299, 121.583998901485], [24.9901920622784, 121.584203619583], [24.9902002312524, 121.584442457364], [24.9901996477542, 121.584778504054], [24.9901605533739, 121.584902751201], [24.9900963685435, 121.585013479229], [24.989941157815, 121.585220772397], [24.9899061478491, 121.585326994052], [24.9899055643496, 121.585452528735], [24.989942908313, 121.585950161093], [24.9899265703304, 121.586081489684], [24.98987697287, 121.586228912465], [24.9897165103608, 121.586615816795], [24.989666329315, 121.586765170879], [24.9894288443201, 121.587656789011], [24.9893424860264, 121.587819662215], [24.9892870533059, 121.5879014207], [24.9891831898255, 121.587981247883], [24.9890052212982, 121.5880385432], [24.9888949390324, 121.588032749292], [24.9888196669529, 121.587988973095], [24.9885675926766, 121.587644557426], [24.9884718976771, 121.587540910842], [24.9883948748185, 121.587506791159], [24.9883050147558, 121.587521597814], [24.9880844488689, 121.587594343553], [24.9875032733672, 121.587791980208], [24.9872669512178, 121.587800992954], [24.9871047347634, 121.587762366898], [24.9868579085968, 121.587616875419], [24.9864757063444, 121.58741795123], [24.9863105712632, 121.587318167251], [24.9861454359602, 121.587254434258], [24.9859943048701, 121.58725121542], [24.985871766012, 121.587256365561], [24.9857206345856, 121.587332330138], [24.9856191021716, 121.587439839328], [24.9855076498275, 121.587634257145], [24.9853950303406, 121.587846056686], [24.9852783261002, 121.588050774785], [24.985145283131, 121.588162790348], [24.9850244939949, 121.588231673481], [24.9845780983316, 121.588303775453], [24.9842046418912, 121.588361714537], [24.9840254991024, 121.588379096263], [24.9838603607304, 121.588395190453], [24.9837524079645, 121.58842287246], [24.9834594761979, 121.588510424854], [24.9833439371817, 121.588554201051], [24.9831490377872, 121.588706130205], [24.9830113242563, 121.588825227212], [24.9829500533561, 121.588920504817], [24.9828782788342, 121.589062777458], [24.9827644898722, 121.589354404183], [24.9827131389215, 121.589408480661], [24.9826524514067, 121.589424574851], [24.9825806767111, 121.589408480661], [24.9825252409419, 121.589366635767], [24.9824458802183, 121.589242388619], [24.9823787736842, 121.589111060028], [24.9822323062519, 121.588892822811], [24.9821762867895, 121.58880977679], [24.9819761337101, 121.58839325915], [24.9819481239237, 121.588279956052], [24.9819101939945, 121.588016655102], [24.9819037750822, 121.587851850595], [24.9818448377813, 121.587741122567], [24.9817964041366, 121.587630394539], [24.9817788979953, 121.587501641018], [24.9817765638429, 121.587378681406], [24.9818302493361, 121.587255078026], [24.9820146471559, 121.586758733203], [24.9821424416853, 121.586423330282], [24.9823046646865, 121.586180629895], [24.9823385097461, 121.586084708522], [24.9823595170198, 121.585879990424], [24.9824219552842, 121.585648234086], [24.9824365436592, 121.585534287221], [24.9824213717492, 121.58549952377], [24.9823921949939, 121.585469266693], [24.9823192530754, 121.585442872221], [24.9822428098983, 121.58542420296], [24.9814810014418, 121.58539458965], [24.9814121437616, 121.585365941992], [24.9813008044189, 121.58528841469], [24.9811821773976, 121.585226577095], [24.9811281619989, 121.585193573258], [24.9810716535565, 121.585173404246], [24.9810428453209, 121.585237578374], [24.9810173611069, 121.585358592445], [24.9812149808244, 121.585421349811]]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b49f822527332cc0677dcb2db466e85);
+        
+</script>
+</html>
